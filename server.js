@@ -13,7 +13,7 @@ app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
     res.render('home', {
-        nombre: 'anDrÉs lEAl ' + port
+        nombre: 'anDrÉs lEAl'
     });
 })
 
